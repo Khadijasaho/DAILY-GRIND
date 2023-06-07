@@ -128,7 +128,7 @@ switch(today){
     
 break;
 
-case 7:
+case 0:
     today ="Sunday";
     coffee = {
         name:"pumpkin-spice-latte", 
@@ -146,7 +146,7 @@ break;
 
      default:
          today ="Not Sure What Day It Is!";
-    alert("falling into alert!");
+    //alert("falling into alert!");
 
 }
 
