@@ -24,7 +24,7 @@ return   `
 
 let myDate =new Date();
 let today =myDate.getDay();
-let coffe = "";
+let coffee = "";
 
 //use location object to access querystring (address bar)
 const queryString = window.location.search;
@@ -146,7 +146,7 @@ break;
 
      default:
          today ="Not Sure What Day It Is!";
-    //alert("falling into alert!");
+  
 
 }
 
@@ -154,5 +154,5 @@ break;
 
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 document.querySelector("html").style.background = coffee.color;
-//alert(today);
+
 console.log(coffee); 
