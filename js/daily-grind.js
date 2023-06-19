@@ -150,9 +150,9 @@ break;
 
 }
 
-//alert(coffeeTemplate(coffee))
+
 
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 document.querySelector("html").style.background = coffee.color;
 //alert(today);
-console.log(coffee);
+console.log(coffee); 
